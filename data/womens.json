@@ -1,0 +1,354 @@
+[
+ {
+  "image": "https://loremflickr.com/300/300/dress,woman?lock=101#womens_1",
+  "title": "Pink Floral Western Dress",
+  "price": 397,
+  "mrp": 649,
+  "rating": 4.4,
+  "review": 7881
+ },
+ {
+  "image": "https://loremflickr.com/300/300/croptop,woman?lock=102#womens_2",
+  "title": "Red Crop Top",
+  "price": 1065,
+  "mrp": 1799,
+  "rating": 4.1,
+  "review": 3402
+ },
+ {
+  "image": "https://loremflickr.com/300/300/jeans,woman?lock=103#womens_3",
+  "title": "Wine High Waist Jeans",
+  "price": 619,
+  "mrp": 1299,
+  "rating": 4.4,
+  "review": 483
+ },
+ {
+  "image": "https://loremflickr.com/300/300/skirt,woman?lock=104#womens_4",
+  "title": "Peach A-Line Midi Skirt",
+  "price": 908,
+  "mrp": 1699,
+  "rating": 4.8,
+  "review": 1531
+ },
+ {
+  "image": "https://loremflickr.com/300/300/kurti,woman?lock=105#womens_5",
+  "title": "Sky Blue Casual Kurti",
+  "price": 1032,
+  "mrp": 1599,
+  "rating": 4.1,
+  "review": 2776
+ },
+ {
+  "image": "https://loremflickr.com/300/300/fashion,woman?lock=106#womens_6",
+  "title": "Yellow Co-ord Set",
+  "price": 650,
+  "mrp": 1049,
+  "rating": 4.1,
+  "review": 8276
+ },
+ {
+  "image": "https://loremflickr.com/300/300/top,woman?lock=107#womens_7",
+  "title": "Lavender Off Shoulder Top",
+  "price": 572,
+  "mrp": 999,
+  "rating": 4.3,
+  "review": 3237
+ },
+ {
+  "image": "https://loremflickr.com/300/300/pants,woman?lock=108#womens_8",
+  "title": "Mint Palazzo Pants",
+  "price": 758,
+  "mrp": 1749,
+  "rating": 4.0,
+  "review": 3754
+ },
+ {
+  "image": "https://loremflickr.com/300/300/dress,fashion?lock=109#womens_9",
+  "title": "Pink Bodycon Dress",
+  "price": 424,
+  "mrp": 799,
+  "rating": 3.9,
+  "review": 514
+ },
+ {
+  "image": "https://loremflickr.com/300/300/shorts,woman?lock=110#womens_10",
+  "title": "Red Denim Shorts",
+  "price": 312,
+  "mrp": 499,
+  "rating": 4.1,
+  "review": 3212
+ },
+ {
+  "image": "https://loremflickr.com/300/300/shirt,woman?lock=111#womens_11",
+  "title": "Wine Oversized Shirt",
+  "price": 898,
+  "mrp": 1599,
+  "rating": 3.9,
+  "review": 5766
+ },
+ {
+  "image": "https://loremflickr.com/300/300/dress,model?lock=112#womens_12",
+  "title": "Peach Wrap Dress",
+  "price": 396,
+  "mrp": 1049,
+  "rating": 3.5,
+  "review": 7741
+ },
+ {
+  "image": "https://loremflickr.com/300/300/dress,woman?lock=113#womens_13",
+  "title": "Sky Blue Floral Western Dress",
+  "price": 374,
+  "mrp": 799,
+  "rating": 4.1,
+  "review": 71
+ },
+ {
+  "image": "https://loremflickr.com/300/300/croptop,woman?lock=114#womens_14",
+  "title": "Yellow Crop Top",
+  "price": 834,
+  "mrp": 1249,
+  "rating": 3.9,
+  "review": 1429
+ },
+ {
+  "image": "https://loremflickr.com/300/300/jeans,woman?lock=115#womens_15",
+  "title": "Lavender High Waist Jeans",
+  "price": 1045,
+  "mrp": 1799,
+  "rating": 4.7,
+  "review": 3305
+ },
+ {
+  "image": "https://loremflickr.com/300/300/skirt,woman?lock=116#womens_16",
+  "title": "Mint A-Line Midi Skirt",
+  "price": 825,
+  "mrp": 1249,
+  "rating": 4.0,
+  "review": 5487
+ },
+ {
+  "image": "https://loremflickr.com/300/300/kurti,woman?lock=117#womens_17",
+  "title": "Pink Casual Kurti",
+  "price": 377,
+  "mrp": 599,
+  "rating": 4.8,
+  "review": 6525
+ },
+ {
+  "image": "https://loremflickr.com/300/300/fashion,woman?lock=118#womens_18",
+  "title": "Red Co-ord Set",
+  "price": 588,
+  "mrp": 1199,
+  "rating": 4.7,
+  "review": 2642
+ },
+ {
+  "image": "https://loremflickr.com/300/300/top,woman?lock=119#womens_19",
+  "title": "Wine Off Shoulder Top",
+  "price": 522,
+  "mrp": 749,
+  "rating": 3.4,
+  "review": 9719
+ },
+ {
+  "image": "https://loremflickr.com/300/300/pants,woman?lock=120#womens_20",
+  "title": "Peach Palazzo Pants",
+  "price": 973,
+  "mrp": 1899,
+  "rating": 4.3,
+  "review": 7811
+ },
+ {
+  "image": "https://loremflickr.com/300/300/dress,fashion?lock=121#womens_21",
+  "title": "Sky Blue Bodycon Dress",
+  "price": 1050,
+  "mrp": 1549,
+  "rating": 3.6,
+  "review": 9023
+ },
+ {
+  "image": "https://loremflickr.com/300/300/shorts,woman?lock=122#womens_22",
+  "title": "Yellow Denim Shorts",
+  "price": 249,
+  "mrp": 699,
+  "rating": 4.5,
+  "review": 1723
+ },
+ {
+  "image": "https://loremflickr.com/300/300/shirt,woman?lock=123#womens_23",
+  "title": "Lavender Oversized Shirt",
+  "price": 795,
+  "mrp": 1299,
+  "rating": 3.6,
+  "review": 3231
+ },
+ {
+  "image": "https://loremflickr.com/300/300/dress,model?lock=124#womens_24",
+  "title": "Mint Wrap Dress",
+  "price": 1179,
+  "mrp": 1799,
+  "rating": 3.4,
+  "review": 3526
+ },
+ {
+  "image": "https://loremflickr.com/300/300/dress,woman?lock=125#womens_25",
+  "title": "Pink Floral Western Dress",
+  "price": 498,
+  "mrp": 949,
+  "rating": 4.5,
+  "review": 5381
+ },
+ {
+  "image": "https://loremflickr.com/300/300/croptop,woman?lock=126#womens_26",
+  "title": "Red Crop Top",
+  "price": 485,
+  "mrp": 899,
+  "rating": 4.6,
+  "review": 1037
+ },
+ {
+  "image": "https://loremflickr.com/300/300/jeans,woman?lock=127#womens_27",
+  "title": "Wine High Waist Jeans",
+  "price": 1186,
+  "mrp": 1949,
+  "rating": 4.7,
+  "review": 9597
+ },
+ {
+  "image": "https://loremflickr.com/300/300/skirt,woman?lock=128#womens_28",
+  "title": "Peach A-Line Midi Skirt",
+  "price": 1199,
+  "mrp": 1799,
+  "rating": 4.0,
+  "review": 8259
+ },
+ {
+  "image": "https://loremflickr.com/300/300/kurti,woman?lock=129#womens_29",
+  "title": "Sky Blue Casual Kurti",
+  "price": 374,
+  "mrp": 699,
+  "rating": 4.1,
+  "review": 346
+ },
+ {
+  "image": "https://loremflickr.com/300/300/fashion,woman?lock=130#womens_30",
+  "title": "Yellow Co-ord Set",
+  "price": 931,
+  "mrp": 1849,
+  "rating": 3.7,
+  "review": 104
+ },
+ {
+  "image": "https://loremflickr.com/300/300/top,woman?lock=131#womens_31",
+  "title": "Lavender Off Shoulder Top",
+  "price": 1069,
+  "mrp": 1699,
+  "rating": 3.6,
+  "review": 7797
+ },
+ {
+  "image": "https://loremflickr.com/300/300/pants,woman?lock=132#womens_32",
+  "title": "Mint Palazzo Pants",
+  "price": 874,
+  "mrp": 1449,
+  "rating": 4.2,
+  "review": 5380
+ },
+ {
+  "image": "https://loremflickr.com/300/300/dress,fashion?lock=133#womens_33",
+  "title": "Pink Bodycon Dress",
+  "price": 823,
+  "mrp": 1549,
+  "rating": 4.2,
+  "review": 1778
+ },
+ {
+  "image": "https://loremflickr.com/300/300/shorts,woman?lock=134#womens_34",
+  "title": "Red Denim Shorts",
+  "price": 1037,
+  "mrp": 1899,
+  "rating": 3.7,
+  "review": 4577
+ },
+ {
+  "image": "https://loremflickr.com/300/300/shirt,woman?lock=135#womens_35",
+  "title": "Wine Oversized Shirt",
+  "price": 340,
+  "mrp": 549,
+  "rating": 4.1,
+  "review": 9243
+ },
+ {
+  "image": "https://loremflickr.com/300/300/dress,model?lock=136#womens_36",
+  "title": "Peach Wrap Dress",
+  "price": 307,
+  "mrp": 499,
+  "rating": 4.7,
+  "review": 7302
+ },
+ {
+  "image": "https://loremflickr.com/300/300/dress,woman?lock=137#womens_37",
+  "title": "Sky Blue Floral Western Dress",
+  "price": 563,
+  "mrp": 999,
+  "rating": 4.1,
+  "review": 8431
+ },
+ {
+  "image": "https://loremflickr.com/300/300/croptop,woman?lock=138#womens_38",
+  "title": "Yellow Crop Top",
+  "price": 473,
+  "mrp": 799,
+  "rating": 4.0,
+  "review": 8777
+ },
+ {
+  "image": "https://loremflickr.com/300/300/jeans,woman?lock=139#womens_39",
+  "title": "Lavender High Waist Jeans",
+  "price": 904,
+  "mrp": 1749,
+  "rating": 4.7,
+  "review": 8612
+ },
+ {
+  "image": "https://loremflickr.com/300/300/skirt,woman?lock=140#womens_40",
+  "title": "Mint A-Line Midi Skirt",
+  "price": 1246,
+  "mrp": 1899,
+  "rating": 4.7,
+  "review": 9207
+ },
+ {
+  "image": "https://loremflickr.com/300/300/kurti,woman?lock=141#womens_41",
+  "title": "Pink Casual Kurti",
+  "price": 1291,
+  "mrp": 1899,
+  "rating": 4.6,
+  "review": 2286
+ },
+ {
+  "image": "https://loremflickr.com/300/300/fashion,woman?lock=142#womens_42",
+  "title": "Red Co-ord Set",
+  "price": 451,
+  "mrp": 1149,
+  "rating": 4.0,
+  "review": 1228
+ },
+ {
+  "image": "https://loremflickr.com/300/300/top,woman?lock=143#womens_43",
+  "title": "Wine Off Shoulder Top",
+  "price": 672,
+  "mrp": 1549,
+  "rating": 3.5,
+  "review": 5000
+ },
+ {
+  "image": "https://loremflickr.com/300/300/pants,woman?lock=144#womens_44",
+  "title": "Peach Palazzo Pants",
+  "price": 687,
+  "mrp": 1749,
+  "rating": 4.5,
+  "review": 6039
+ }
+]

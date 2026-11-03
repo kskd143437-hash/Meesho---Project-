@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script src="./script/imgfix.js?v=2"></script>
+<script src="./script/auth.js?v=3"></script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="https://static.meeshosupply.com/web/meesho-logo-fav.png">
+  <link rel="stylesheet" href="./css/homePage.css">
+  <link rel="stylesheet" href="./css/cart.css">
+  <link rel="stylesheet" href="./css/orders.css">
+  <link rel="stylesheet" href="./css/search.css">
+  <title>Payment | Meesho</title>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <section class="navbar">
+    <div class="uppernav">
+      <a href="index.html"><img src="https://cdn.hevodata.com/customer/logo/8c76f62bd88177a78bb6e2810a244446.png"
+          alt="logo" class="logo" /></a>
+      <div class="navSearch">
+        <img src="https://i.postimg.cc/90c6jfMm/search-interface-symbol.png" alt="search" class="NavSearchIcon" />
+        <input type="text" id="keyword" class="searchContainer" placeholder="Try Saree,Kurthi or Seach by Product Code"
+          onkeypress="handleKeyPress(event)" />
+      </div>
+      <div class="navRightSec">
+        <div class="navAppPromo">
+          <img src="https://i.postimg.cc/sXqr2Fz4/smartphone.png" alt="app" class="navAppIcon" />
+          <span id="tagDwn">Download App</span>
+        </div>
+        <span class="navSuplier">Become a Supplier</span>
+        <div class="navProfile" onclick="window.location.href='SignUpPage.html'">
+          <img src="https://i.postimg.cc/wjtLkcVz/user.png" alt="account" class="navAccountIcon" />
+          <span class="SignUpHover">Profile</span>
+        </div>
+        <div class="navcart" onclick="window.location.href='CartPage.html'">
+          <img src="https://i.postimg.cc/sXBgkwMf/bag.png" alt="cart" class="cartIcon" />
+          <span class="SignUpHover" onclick="window.location.href='CartPage.html'">Cart</span>
+        </div>
+        <div id="cart-item-counter">0</div>
+          <div class="navOrders" onclick="window.location.href='MyOrders.html'" title="My Orders">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg>
+            <span class="SignUpHover">My Orders</span>
+          </div>
+      </div>
+    </div>
+    <div class="bottomNav">
+      <div class="nav-menu">
+        <ul>
+          <li class="dropdown" onclick="window.location.href='viewall.html'">View All</li>
+          <li class="dropdown" onclick="window.location.href='WomenWestern.html'">Women Western
+            <div class="submenu">
+              <div class="subCat">
+                <span class="catHeading">Topwear</span>
+                <span>Dresses</span>
+                <span>Tops</span>
+                <span>Sweaters</span>
+                <span>Jumpsuits</span>
+              </div>
+              <div class="subCat" style="margin-left: 1em;">
+                <span class="catHeading">Bottomwear</span>
+                <span>Jeans</span>
+                <span>Jeggings</span>
+                <span>Palazzos</span>
+                <span>Shorts</span>
+                <span>Skirts</span>
+              </div>
+            </div>
+          </li>
+          <li onclick="window.location.href='jewellery.html'">Jewellery & Accessories</li>
+          <li onclick="window.location.href='Men.html'">Men</li>
+          <li>Beauty & Health</li>
+          <li>Bath & Body</li>
+          <li>Bags & Footwear</li>
+          <li>Home & Kitchen</li>
+          <li>Kids</li>
+          <li>Electronics</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="searchWindow">
+    <div class="searchCloseBtn">
+      <img src="https://i.postimg.cc/Lgdct409/close.png" alt="">
+    </div>
+    <div id="searchWindowDiv">
+
+    </div>
+  </section>
+  <section class="blurBack"></section>
+  <section class="cartSection">
+    <div class="cart-left-section payLeft">
+      <h1>Payment Method</h1>
+      <div class="cod-div">
+        <div class="cod-left-div">
+          <img class="cash-img" src="https://i.postimg.cc/rFFBn0fY/money.png" alt="money">
+          <p>Cash on Delivery</p>
+        </div>
+        <img class="tick-img" src="https://i.postimg.cc/tJPNDzLV/check.png" alt="check">
+      </div>
+      <h2 class="addr-title">Delivery Address</h2>
+      <form id="addressForm" novalidate onsubmit="return false">
+        <div class="addr-grid">
+          <label>Full Name<input id="addrName" type="text" maxlength="60" autocomplete="name"></label>
+          <label>Mobile Number<input id="addrPhone" type="tel" maxlength="10" inputmode="numeric" autocomplete="tel"></label>
+          <label class="full">Address (House no, Building, Street, Area)<textarea id="addrLine" rows="2" maxlength="200"></textarea></label>
+          <label>City<input id="addrCity" type="text" maxlength="40"></label>
+          <label>State<select id="addrState"><option value="">Select state</option><option>Andhra Pradesh</option><option>Arunachal Pradesh</option><option>Assam</option><option>Bihar</option><option>Chhattisgarh</option><option>Goa</option><option>Gujarat</option><option>Haryana</option><option>Himachal Pradesh</option><option>Jharkhand</option><option>Karnataka</option><option>Kerala</option><option>Madhya Pradesh</option><option>Maharashtra</option><option>Manipur</option><option>Meghalaya</option><option>Mizoram</option><option>Nagaland</option><option>Odisha</option><option>Punjab</option><option>Rajasthan</option><option>Sikkim</option><option>Tamil Nadu</option><option>Telangana</option><option>Tripura</option><option>Uttar Pradesh</option><option>Uttarakhand</option><option>West Bengal</option><option>Andaman and Nicobar Islands</option><option>Chandigarh</option><option>Dadra and Nagar Haveli and Daman and Diu</option><option>Delhi</option><option>Jammu and Kashmir</option><option>Ladakh</option><option>Lakshadweep</option><option>Puducherry</option></select></label>
+          <label>Pincode<input id="addrPin" type="text" maxlength="6" inputmode="numeric"></label>
+        </div>
+        <p id="addrError" class="addr-error"></p>
+      </form>
+    </div>
+    <div class="cart-right-section">
+      <h3>Price Details:</h3>
+      <div class="product-charges">
+        <p>Product Charges:</p>
+        <p id="product-charges"></p>
+      </div>
+      <div class="delivery-charges">
+        <p>Delivery Charges:</p>
+        <p>+ ₹0</p>
+      </div>
+      <div class="cod-charges">
+        <p>COD Charges:</p>
+        <p>+ ₹0</p>
+      </div>
+      <div class="discount-div">
+        <p>1st Order Discount:</p>
+        <p>- ₹100</p>
+      </div>
+      <div class="order-total-div">
+        <p>Order Total:</p>
+        <p id="order_total"></p>
+      </div>
+      <div>
+        <p class="warning-message">Clicking on Continue will not deduct any money</p>
+      </div>
+      <button type="button" class="cart-continue-button" id="placeOrder">Place Order</button>
+    </div>
+  </section>
+  <!-- Footer -->
+  <div id="footer">
+    <div>
+      <h2>Shop No-Stop on Meesho</h2>
+      <p>Trusted by more than 1 Crore Indians
+        Cash on Delivery | Free Delivery</p>
+      <img src="https://images.meesho.com/images/pow/playstore-icon.webp" ; alt="" width="47%">
+      <img style="height:50px ;" src="https://images.meesho.com/images/pow/appstore-icon.webp" alt="" width="47%
+           ">
+    </div>
+    <div>
+      <a href="">Careers</a>
+      <a href="">Become a supplier</a>
+    </div>
+    <div>
+      <a href="">Legal And Policies</a>
+      <a href="">Meesho Tech Blog</a>
+    </div>
+    <div>
+      <a href="">
+        <h3>Contact Us</h3>
+      </a>
+      <a href="">query@meesho.com</a>
+    </div>
+    <div>
+      <a href="">Reach out to us</a>
+      <img src="https://meesho.com/assets/facebook.png" alt="">
+      <img src="https://meesho.com/assets/instagram.png" alt="">
+      <img src="https://meesho.com/assets/youtube.png" alt="">
+      <img src="https://meesho.com/assets/linkedin.png" alt="">
+      <img src="https://meesho.com/assets/twitter.png" alt="">
+
+    </div>
+
+  </div>
+</body>
+
+</html>
+<script type="text/javascript" src="./script/search.js?v=2"></script>
+<script>
+(function () {
+  var user = window.getCurrentUser && window.getCurrentUser();
+  if (!user) return; // auth.js redirects to login
+  var cart = [];
+  try { cart = JSON.parse(localStorage.getItem("product_data")) || []; } catch (e) { cart = []; }
+  var sum = cart.reduce(function (s, e) { return s + Number(e.price || 0); }, 0);
+  var discount = sum > 100 ? 100 : sum;
+  var total = sum - discount;
+  document.getElementById("product-charges").textContent = sum;
+  document.getElementById("order_total").textContent = total;
+
+  var $ = function (id) { return document.getElementById(id); };
+  // pre-fill last used address
+  try {
+    var a = JSON.parse(localStorage.getItem("saved_address") || "null");
+    if (a) { $("addrName").value = a.name; $("addrPhone").value = a.phone; $("addrLine").value = a.line; $("addrCity").value = a.city; $("addrState").value = a.state; $("addrPin").value = a.pin; }
+  } catch (e) {}
+  if (!$("addrName").value && user.name) $("addrName").value = user.name;
+  ["addrPhone", "addrPin"].forEach(function (id) {
+    $(id).addEventListener("input", function () { this.value = this.value.replace(/\D/g, ""); });
+  });
+
+  ["addrName","addrPhone","addrLine","addrCity","addrState","addrPin"].forEach(function (id) {
+    $(id).addEventListener("input", function () { $("addrError").textContent = ""; });
+  });
+
+  function fail(msg, id) { $("addrError").textContent = msg; $(id).focus(); }
+
+  $("placeOrder").addEventListener("click", function () {
+    if (!cart.length) { alert("Your cart is empty. Please add a product first."); window.location.href = "index.html"; return; }
+    var addr = {
+      name: $("addrName").value.trim(), phone: $("addrPhone").value.trim(), line: $("addrLine").value.trim(),
+      city: $("addrCity").value.trim(), state: $("addrState").value, pin: $("addrPin").value.trim()
+    };
+    $("addrError").textContent = "";
+    if (addr.name.length < 2) return fail("Please enter your full name.", "addrName");
+    if (!/^[6-9]\d{9}$/.test(addr.phone)) return fail("Enter a valid 10-digit mobile number.", "addrPhone");
+    if (addr.line.length < 5) return fail("Please enter your full address.", "addrLine");
+    if (addr.city.length < 2) return fail("Please enter your city.", "addrCity");
+    if (!addr.state) return fail("Please select your state.", "addrState");
+    if (!/^\d{6}$/.test(addr.pin)) return fail("Enter a valid 6-digit pincode.", "addrPin");
+
+    var id = "MSH" + Date.now().toString().slice(-9) + Math.floor(Math.random() * 90 + 10);
+    var order = {
+      id: id, userEmail: user.email, date: new Date().toISOString(), status: "Placed", payment: "Cash on Delivery",
+      items: cart.map(function (e) { return { title: e.title, image: e.image, price: Number(e.price || 0), mrp: e.mrp }; }),
+      subtotal: sum, discount: discount, total: total, address: addr
+    };
+    var orders = [];
+    try { orders = JSON.parse(localStorage.getItem("orders")) || []; } catch (e) { orders = []; }
+    orders.push(order);
+    localStorage.setItem("orders", JSON.stringify(orders));
+    localStorage.setItem("saved_address", JSON.stringify(addr));
+    localStorage.setItem("last_order_id", id);
+    localStorage.removeItem("product_data");
+    window.location.href = "checkout.html";
+  });
+})();
+</script>

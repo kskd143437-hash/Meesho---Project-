@@ -1,0 +1,42 @@
+/* ---------- My Orders + Address (new feature) ---------- */
+.navOrders{display:flex;flex-direction:column;align-items:center;font-size:1.02em;padding:0 14px;cursor:pointer;white-space:nowrap;}
+.navOrders svg{display:block;margin-bottom:2px;}
+.navOrders:hover{color:#f43397;}
+
+.payLeft{height:auto !important;overflow:visible !important;}
+.addr-title{font-size:1.3em;margin-top:1.2em !important;}
+.addr-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px 14px;}
+.addr-grid label{display:flex;flex-direction:column;font-size:.92em;font-weight:600;color:#333;margin:4px 0 !important;}
+.addr-grid label.full{grid-column:1 / -1;}
+.addr-grid input,.addr-grid textarea,.addr-grid select{margin:4px 0 0 0 !important;padding:10px;border:1px solid #bbb;border-radius:4px;font-size:1em;font-family:inherit;font-weight:400;box-sizing:border-box;width:100%;}
+.addr-grid input:focus,.addr-grid textarea:focus,.addr-grid select:focus{outline:none;border-color:#f43397;}
+.addr-error{color:#d32f2f;font-weight:600;min-height:1.2em;}
+
+.ordersSection{max-width:1000px;margin:2em auto;padding:0 16px;min-height:420px;}
+.ordersSection *{box-sizing:border-box;}
+.ordersSection h1{font-size:1.8em;margin:0 0 12px;}
+.orderTabs{display:flex;gap:8px;margin-bottom:16px;}
+.orderTabs button{border:1px solid #ccc;background:#fff;padding:8px 18px;border-radius:20px;cursor:pointer;font-size:.95em;}
+.orderTabs button.active{background:#f43397;color:#fff;border-color:#f43397;}
+.orderCard{border:1px solid #ddd;border-radius:8px;margin-bottom:18px;background:#fff;overflow:hidden;}
+.orderHead{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;background:#f7f7f9;padding:12px 16px;border-bottom:1px solid #eee;}
+.orderHead small{display:block;color:#777;}
+.badge{display:inline-block;padding:4px 12px;border-radius:14px;font-weight:700;font-size:.85em;}
+.badge.placed{background:#e3f6e8;color:#1b7f3b;}
+.badge.cancelled{background:#fde8e8;color:#c62828;}
+.orderItem{display:flex;gap:14px;padding:12px 16px;border-bottom:1px solid #f0f0f0;align-items:center;}
+.orderItem img{width:72px;height:72px;object-fit:cover;border-radius:6px;background:#eee;}
+.orderItem .t{flex:1;}
+.orderItem .p{font-weight:700;}
+.orderBody{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;padding:14px 16px;}
+.orderBody h4{margin:0 0 4px;font-size:.95em;color:#555;}
+.orderBody p{margin:2px 0;font-size:.95em;}
+.orderFoot{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-top:1px solid #eee;flex-wrap:wrap;gap:8px;}
+.cancelBtn{background:#fff;border:1.5px solid #d32f2f;color:#d32f2f;padding:8px 20px;border-radius:4px;font-weight:700;cursor:pointer;}
+.cancelBtn:hover{background:#d32f2f;color:#fff;}
+.emptyBox{text-align:center;padding:60px 10px;color:#555;}
+.emptyBox a{display:inline-block;margin-top:14px;background:#f43397;color:#fff;padding:12px 28px;border-radius:4px;text-decoration:none;font-weight:700;}
+.empty-cart{text-align:center;padding:50px 10px;}
+.empty-cart a{display:inline-block;margin-top:12px;color:#f43397;font-weight:700;}
+.viewOrdersLink{color:#f43397;font-weight:700;}
+@media(max-width:700px){.addr-grid{grid-template-columns:1fr;}}

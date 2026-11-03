@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(50,70%,82%)"/><stop offset="1" stop-color="hsl(90,65%,62%)"/></linearGradient></defs>
+<rect width="300" height="300" fill="url(#g)"/>
+<circle cx="150" cy="120" r="46" fill="rgba(255,255,255,.55)"/>
+<rect x="95" y="175" width="110" height="70" rx="14" fill="rgba(255,255,255,.55)"/>
+<text x="150" y="268" font-family="Arial,sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#222">Pearl Oxidised Jhumka Ear…</text>
+<text x="150" y="288" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#333">Meesho Jewellery</text></svg>

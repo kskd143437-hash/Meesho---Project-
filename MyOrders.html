@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script src="./script/imgfix.js?v=2"></script>
+<script src="./script/auth.js?v=3"></script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="https://static.meeshosupply.com/web/meesho-logo-fav.png">
+  <link rel="stylesheet" href="./css/homePage.css">
+  <link rel="stylesheet" href="./css/cart.css">
+  <link rel="stylesheet" href="./css/orders.css">
+  <link rel="stylesheet" href="./css/search.css">
+  <title>My Orders | Meesho</title>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <section class="navbar">
+    <div class="uppernav">
+      <a href="index.html"><img src="https://cdn.hevodata.com/customer/logo/8c76f62bd88177a78bb6e2810a244446.png"
+          alt="logo" class="logo" /></a>
+      <div class="navSearch">
+        <img src="https://i.postimg.cc/90c6jfMm/search-interface-symbol.png" alt="search" class="NavSearchIcon" />
+        <input type="text" id="keyword" class="searchContainer" placeholder="Try Saree,Kurthi or Seach by Product Code"
+          onkeypress="handleKeyPress(event)" />
+      </div>
+      <div class="navRightSec">
+        <div class="navAppPromo">
+          <img src="https://i.postimg.cc/sXqr2Fz4/smartphone.png" alt="app" class="navAppIcon" />
+          <span id="tagDwn">Download App</span>
+        </div>
+        <span class="navSuplier">Become a Supplier</span>
+        <div class="navProfile" onclick="window.location.href='SignUpPage.html'">
+          <img src="https://i.postimg.cc/wjtLkcVz/user.png" alt="account" class="navAccountIcon" />
+          <span class="SignUpHover">Profile</span>
+        </div>
+        <div class="navcart" onclick="window.location.href='CartPage.html'">
+          <img src="https://i.postimg.cc/sXBgkwMf/bag.png" alt="cart" class="cartIcon" />
+          <span class="SignUpHover" onclick="window.location.href='CartPage.html'">Cart</span>
+        </div>
+        <div id="cart-item-counter">0</div>
+          <div class="navOrders" onclick="window.location.href='MyOrders.html'" title="My Orders">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg>
+            <span class="SignUpHover">My Orders</span>
+          </div>
+      </div>
+    </div>
+    <div class="bottomNav">
+      <div class="nav-menu">
+        <ul>
+          <li class="dropdown" onclick="window.location.href='viewall.html'">View All</li>
+          <li class="dropdown" onclick="window.location.href='WomenWestern.html'">Women Western
+            <div class="submenu">
+              <div class="subCat">
+                <span class="catHeading">Topwear</span>
+                <span>Dresses</span>
+                <span>Tops</span>
+                <span>Sweaters</span>
+                <span>Jumpsuits</span>
+              </div>
+              <div class="subCat" style="margin-left: 1em;">
+                <span class="catHeading">Bottomwear</span>
+                <span>Jeans</span>
+                <span>Jeggings</span>
+                <span>Palazzos</span>
+                <span>Shorts</span>
+                <span>Skirts</span>
+              </div>
+            </div>
+          </li>
+          <li onclick="window.location.href='jewellery.html'">Jewellery & Accessories</li>
+          <li onclick="window.location.href='Men.html'">Men</li>
+          <li>Beauty & Health</li>
+          <li>Bath & Body</li>
+          <li>Bags & Footwear</li>
+          <li>Home & Kitchen</li>
+          <li>Kids</li>
+          <li>Electronics</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="searchWindow">
+    <div class="searchCloseBtn">
+      <img src="https://i.postimg.cc/Lgdct409/close.png" alt="">
+    </div>
+    <div id="searchWindowDiv">
+
+    </div>
+  </section>
+  <section class="blurBack"></section>
+  <section class="ordersSection">
+    <h1>My Orders</h1>
+    <div class="orderTabs">
+      <button data-f="all" class="active">All</button>
+      <button data-f="Placed">Active</button>
+      <button data-f="Cancelled">Cancelled</button>
+    </div>
+    <div id="ordersList"></div>
+  </section>
+  <!-- Footer -->
+  <div id="footer">
+    <div>
+      <h2>Shop No-Stop on Meesho</h2>
+      <p>Trusted by more than 1 Crore Indians
+        Cash on Delivery | Free Delivery</p>
+      <img src="https://images.meesho.com/images/pow/playstore-icon.webp" ; alt="" width="47%">
+      <img style="height:50px ;" src="https://images.meesho.com/images/pow/appstore-icon.webp" alt="" width="47%
+           ">
+    </div>
+    <div>
+      <a href="">Careers</a>
+      <a href="">Become a supplier</a>
+    </div>
+    <div>
+      <a href="">Legal And Policies</a>
+      <a href="">Meesho Tech Blog</a>
+    </div>
+    <div>
+      <a href="">
+        <h3>Contact Us</h3>
+      </a>
+      <a href="">query@meesho.com</a>
+    </div>
+    <div>
+      <a href="">Reach out to us</a>
+      <img src="https://meesho.com/assets/facebook.png" alt="">
+      <img src="https://meesho.com/assets/instagram.png" alt="">
+      <img src="https://meesho.com/assets/youtube.png" alt="">
+      <img src="https://meesho.com/assets/linkedin.png" alt="">
+      <img src="https://meesho.com/assets/twitter.png" alt="">
+
+    </div>
+
+  </div>
+</body>
+
+</html>
+<script type="text/javascript" src="./script/search.js?v=2"></script>
+<script>
+(function () {
+  var user = window.getCurrentUser && window.getCurrentUser();
+  if (!user) return; // auth.js redirects to login
+  var list = document.getElementById("ordersList");
+  var filter = "all";
+  function load() { try { return JSON.parse(localStorage.getItem("orders")) || []; } catch (e) { return []; } }
+  function save(o) { localStorage.setItem("orders", JSON.stringify(o)); }
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; }
+  function fmt(d) { return new Date(d).toLocaleString("en-IN", { day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" }); }
+  function rs(n) { return "\u20B9" + n; }
+
+  function cancel(id) {
+    if (!confirm("Are you sure you want to cancel this order?")) return;
+    var orders = load();
+    orders.forEach(function (o) { if (o.id === id && o.userEmail === user.email && o.status === "Placed") { o.status = "Cancelled"; o.cancelledAt = new Date().toISOString(); } });
+    save(orders); render();
+  }
+
+  function card(o) {
+    var c = el("div", "orderCard");
+    var h = el("div", "orderHead");
+    var l = el("div"); l.append(el("b", "", "Order #" + o.id)); var sm = el("small", "", "Placed on " + fmt(o.date)); l.append(sm);
+    var badge = el("span", "badge " + o.status.toLowerCase(), o.status);
+    h.append(l, badge); c.append(h);
+    o.items.forEach(function (it) {
+      var r = el("div", "orderItem"); var im = el("img"); im.src = it.image; im.alt = "";
+      var t = el("div", "t", it.title); var p = el("div", "p", rs(it.price)); r.append(im, t, p); c.append(r);
+    });
+    var b = el("div", "orderBody");
+    var a = o.address, d1 = el("div"); d1.append(el("h4", "", "Delivery address"), el("p", "", a.name + " | " + a.phone), el("p", "", a.line), el("p", "", a.city + ", " + a.state + " - " + a.pin));
+    var d2 = el("div"); d2.append(el("h4", "", "Payment"), el("p", "", o.payment));
+    if (o.status === "Placed") { var eta = new Date(new Date(o.date).getTime() + 5 * 864e5); d2.append(el("p", "", "Expected delivery: " + eta.toLocaleDateString("en-IN", { day: "numeric", month: "short" }) + " (approx.)")); }
+    else if (o.cancelledAt) d2.append(el("p", "", "Cancelled on " + fmt(o.cancelledAt)));
+    var d3 = el("div"); d3.append(el("h4", "", "Price"), el("p", "", "Items: " + rs(o.subtotal)), el("p", "", "Discount: - " + rs(o.discount)), el("p", "", "Total: " + rs(o.total)));
+    b.append(d1, d2, d3); c.append(b);
+    var f = el("div", "orderFoot"); f.append(el("b", "", "Order total: " + rs(o.total)));
+    if (o.status === "Placed") { var btn = el("button", "cancelBtn", "Cancel Order"); btn.onclick = function () { cancel(o.id); }; f.append(btn); }
+    c.append(f); return c;
+  }
+
+  function render() {
+    list.innerHTML = "";
+    var orders = load().slice().reverse().filter(function (o) { return o.userEmail === user.email && (filter === "all" || o.status === filter); });
+    if (!orders.length) {
+      var box = el("div", "emptyBox"); box.append(el("h2", "", filter === "all" ? "No orders yet" : "No orders here"), el("p", "", "Your orders will show up here."));
+      var a = el("a", "", "Start shopping"); a.href = "index.html"; box.append(a); list.append(box); return;
+    }
+    orders.forEach(function (o) { list.append(card(o)); });
+  }
+
+  document.querySelectorAll(".orderTabs button").forEach(function (b) {
+    b.onclick = function () {
+      document.querySelectorAll(".orderTabs button").forEach(function (x) { x.classList.remove("active"); });
+      b.classList.add("active"); filter = b.getAttribute("data-f"); render();
+    };
+  });
+  render();
+})();
+</script>

@@ -1,0 +1,354 @@
+[
+ {
+  "image": "https://loremflickr.com/300/300/shirt,man?lock=1#mens_1",
+  "title": "Navy Cotton Casual Shirt",
+  "price": 681,
+  "mrp": 999,
+  "rating": 4.0,
+  "review": 831
+ },
+ {
+  "image": "https://loremflickr.com/300/300/jeans,man?lock=2#mens_2",
+  "title": "Maroon Slim Fit Jeans",
+  "price": 381,
+  "mrp": 599,
+  "rating": 3.5,
+  "review": 9588
+ },
+ {
+  "image": "https://loremflickr.com/300/300/tshirt,man?lock=3#mens_3",
+  "title": "Teal Printed Round Neck T-Shirt",
+  "price": 366,
+  "mrp": 549,
+  "rating": 3.7,
+  "review": 1448
+ },
+ {
+  "image": "https://loremflickr.com/300/300/trousers,man?lock=4#mens_4",
+  "title": "Black Formal Trousers",
+  "price": 570,
+  "mrp": 1149,
+  "rating": 3.7,
+  "review": 9068
+ },
+ {
+  "image": "https://loremflickr.com/300/300/hoodie,man?lock=5#mens_5",
+  "title": "Grey Hooded Sweatshirt",
+  "price": 425,
+  "mrp": 1149,
+  "rating": 4.2,
+  "review": 3697
+ },
+ {
+  "image": "https://loremflickr.com/300/300/flannel,shirt?lock=6#mens_6",
+  "title": "White Checked Flannel Shirt",
+  "price": 853,
+  "mrp": 1499,
+  "rating": 4.7,
+  "review": 9495
+ },
+ {
+  "image": "https://loremflickr.com/300/300/shorts,man?lock=7#mens_7",
+  "title": "Olive Cargo Shorts",
+  "price": 683,
+  "mrp": 1399,
+  "rating": 4.8,
+  "review": 803
+ },
+ {
+  "image": "https://loremflickr.com/300/300/polo,shirt?lock=8#mens_8",
+  "title": "Mustard Polo T-Shirt",
+  "price": 877,
+  "mrp": 1349,
+  "rating": 3.8,
+  "review": 2403
+ },
+ {
+  "image": "https://loremflickr.com/300/300/denim,jacket?lock=9#mens_9",
+  "title": "Navy Denim Jacket",
+  "price": 527,
+  "mrp": 1349,
+  "rating": 3.8,
+  "review": 3001
+ },
+ {
+  "image": "https://loremflickr.com/300/300/trackpants,man?lock=10#mens_10",
+  "title": "Maroon Track Pants",
+  "price": 359,
+  "mrp": 649,
+  "rating": 4.3,
+  "review": 6141
+ },
+ {
+  "image": "https://loremflickr.com/300/300/kurta,man?lock=11#mens_11",
+  "title": "Teal Kurta Pyjama Set",
+  "price": 351,
+  "mrp": 649,
+  "rating": 3.5,
+  "review": 1016
+ },
+ {
+  "image": "https://loremflickr.com/300/300/linen,shirt?lock=12#mens_12",
+  "title": "Black Linen Shirt",
+  "price": 611,
+  "mrp": 1449,
+  "rating": 4.4,
+  "review": 7045
+ },
+ {
+  "image": "https://loremflickr.com/300/300/shirt,man?lock=13#mens_13",
+  "title": "Grey Cotton Casual Shirt",
+  "price": 781,
+  "mrp": 1699,
+  "rating": 4.2,
+  "review": 7464
+ },
+ {
+  "image": "https://loremflickr.com/300/300/jeans,man?lock=14#mens_14",
+  "title": "White Slim Fit Jeans",
+  "price": 477,
+  "mrp": 1049,
+  "rating": 4.5,
+  "review": 4039
+ },
+ {
+  "image": "https://loremflickr.com/300/300/tshirt,man?lock=15#mens_15",
+  "title": "Olive Printed Round Neck T-Shirt",
+  "price": 330,
+  "mrp": 599,
+  "rating": 4.1,
+  "review": 5667
+ },
+ {
+  "image": "https://loremflickr.com/300/300/trousers,man?lock=16#mens_16",
+  "title": "Mustard Formal Trousers",
+  "price": 836,
+  "mrp": 1649,
+  "rating": 4.3,
+  "review": 1239
+ },
+ {
+  "image": "https://loremflickr.com/300/300/hoodie,man?lock=17#mens_17",
+  "title": "Navy Hooded Sweatshirt",
+  "price": 343,
+  "mrp": 649,
+  "rating": 3.6,
+  "review": 5644
+ },
+ {
+  "image": "https://loremflickr.com/300/300/flannel,shirt?lock=18#mens_18",
+  "title": "Maroon Checked Flannel Shirt",
+  "price": 472,
+  "mrp": 699,
+  "rating": 4.0,
+  "review": 1311
+ },
+ {
+  "image": "https://loremflickr.com/300/300/shorts,man?lock=19#mens_19",
+  "title": "Teal Cargo Shorts",
+  "price": 926,
+  "mrp": 1699,
+  "rating": 4.5,
+  "review": 5180
+ },
+ {
+  "image": "https://loremflickr.com/300/300/polo,shirt?lock=20#mens_20",
+  "title": "Black Polo T-Shirt",
+  "price": 592,
+  "mrp": 999,
+  "rating": 4.2,
+  "review": 9541
+ },
+ {
+  "image": "https://loremflickr.com/300/300/denim,jacket?lock=21#mens_21",
+  "title": "Grey Denim Jacket",
+  "price": 891,
+  "mrp": 1749,
+  "rating": 4.6,
+  "review": 4462
+ },
+ {
+  "image": "https://loremflickr.com/300/300/trackpants,man?lock=22#mens_22",
+  "title": "White Track Pants",
+  "price": 741,
+  "mrp": 1249,
+  "rating": 3.5,
+  "review": 5112
+ },
+ {
+  "image": "https://loremflickr.com/300/300/kurta,man?lock=23#mens_23",
+  "title": "Olive Kurta Pyjama Set",
+  "price": 827,
+  "mrp": 1499,
+  "rating": 4.4,
+  "review": 7341
+ },
+ {
+  "image": "https://loremflickr.com/300/300/linen,shirt?lock=24#mens_24",
+  "title": "Mustard Linen Shirt",
+  "price": 570,
+  "mrp": 949,
+  "rating": 4.6,
+  "review": 5725
+ },
+ {
+  "image": "https://loremflickr.com/300/300/shirt,man?lock=25#mens_25",
+  "title": "Navy Cotton Casual Shirt",
+  "price": 338,
+  "mrp": 499,
+  "rating": 3.9,
+  "review": 1958
+ },
+ {
+  "image": "https://loremflickr.com/300/300/jeans,man?lock=26#mens_26",
+  "title": "Maroon Slim Fit Jeans",
+  "price": 462,
+  "mrp": 1249,
+  "rating": 4.5,
+  "review": 2159
+ },
+ {
+  "image": "https://loremflickr.com/300/300/tshirt,man?lock=27#mens_27",
+  "title": "Teal Printed Round Neck T-Shirt",
+  "price": 720,
+  "mrp": 1649,
+  "rating": 3.9,
+  "review": 8174
+ },
+ {
+  "image": "https://loremflickr.com/300/300/trousers,man?lock=28#mens_28",
+  "title": "Black Formal Trousers",
+  "price": 244,
+  "mrp": 599,
+  "rating": 4.0,
+  "review": 4592
+ },
+ {
+  "image": "https://loremflickr.com/300/300/hoodie,man?lock=29#mens_29",
+  "title": "Grey Hooded Sweatshirt",
+  "price": 755,
+  "mrp": 1899,
+  "rating": 4.0,
+  "review": 9054
+ },
+ {
+  "image": "https://loremflickr.com/300/300/flannel,shirt?lock=30#mens_30",
+  "title": "White Checked Flannel Shirt",
+  "price": 536,
+  "mrp": 899,
+  "rating": 4.8,
+  "review": 6273
+ },
+ {
+  "image": "https://loremflickr.com/300/300/shorts,man?lock=31#mens_31",
+  "title": "Olive Cargo Shorts",
+  "price": 341,
+  "mrp": 849,
+  "rating": 3.6,
+  "review": 3840
+ },
+ {
+  "image": "https://loremflickr.com/300/300/polo,shirt?lock=32#mens_32",
+  "title": "Mustard Polo T-Shirt",
+  "price": 668,
+  "mrp": 1549,
+  "rating": 4.1,
+  "review": 9692
+ },
+ {
+  "image": "https://loremflickr.com/300/300/denim,jacket?lock=33#mens_33",
+  "title": "Navy Denim Jacket",
+  "price": 331,
+  "mrp": 749,
+  "rating": 3.4,
+  "review": 6904
+ },
+ {
+  "image": "https://loremflickr.com/300/300/trackpants,man?lock=34#mens_34",
+  "title": "Maroon Track Pants",
+  "price": 646,
+  "mrp": 1349,
+  "rating": 4.2,
+  "review": 2096
+ },
+ {
+  "image": "https://loremflickr.com/300/300/kurta,man?lock=35#mens_35",
+  "title": "Teal Kurta Pyjama Set",
+  "price": 1040,
+  "mrp": 1599,
+  "rating": 4.7,
+  "review": 924
+ },
+ {
+  "image": "https://loremflickr.com/300/300/linen,shirt?lock=36#mens_36",
+  "title": "Black Linen Shirt",
+  "price": 797,
+  "mrp": 1199,
+  "rating": 4.5,
+  "review": 9203
+ },
+ {
+  "image": "https://loremflickr.com/300/300/shirt,man?lock=37#mens_37",
+  "title": "Grey Cotton Casual Shirt",
+  "price": 537,
+  "mrp": 1099,
+  "rating": 4.0,
+  "review": 7929
+ },
+ {
+  "image": "https://loremflickr.com/300/300/jeans,man?lock=38#mens_38",
+  "title": "White Slim Fit Jeans",
+  "price": 734,
+  "mrp": 1499,
+  "rating": 3.7,
+  "review": 3460
+ },
+ {
+  "image": "https://loremflickr.com/300/300/tshirt,man?lock=39#mens_39",
+  "title": "Olive Printed Round Neck T-Shirt",
+  "price": 487,
+  "mrp": 1199,
+  "rating": 3.9,
+  "review": 901
+ },
+ {
+  "image": "https://loremflickr.com/300/300/trousers,man?lock=40#mens_40",
+  "title": "Mustard Formal Trousers",
+  "price": 227,
+  "mrp": 649,
+  "rating": 3.6,
+  "review": 1702
+ },
+ {
+  "image": "https://loremflickr.com/300/300/hoodie,man?lock=41#mens_41",
+  "title": "Navy Hooded Sweatshirt",
+  "price": 592,
+  "mrp": 1049,
+  "rating": 3.5,
+  "review": 3447
+ },
+ {
+  "image": "https://loremflickr.com/300/300/flannel,shirt?lock=42#mens_42",
+  "title": "Maroon Checked Flannel Shirt",
+  "price": 697,
+  "mrp": 1449,
+  "rating": 4.3,
+  "review": 5731
+ },
+ {
+  "image": "https://loremflickr.com/300/300/shorts,man?lock=43#mens_43",
+  "title": "Teal Cargo Shorts",
+  "price": 691,
+  "mrp": 1449,
+  "rating": 3.6,
+  "review": 8036
+ },
+ {
+  "image": "https://loremflickr.com/300/300/polo,shirt?lock=44#mens_44",
+  "title": "Black Polo T-Shirt",
+  "price": 621,
+  "mrp": 1199,
+  "rating": 3.8,
+  "review": 2401
+ }
+]

@@ -1,0 +1,8 @@
+HOW TO RUN (Windows)
+1. Open this folder in terminal (type cmd in File Explorer address bar).
+2. npm start          (or double-click run.bat)
+3. Browser opens http://localhost:8080  -> index.html
+
+No MongoDB / backend needed. Product data is in the /data folder,
+login/signup/cart are stored in your browser (localStorage).
+Test login: admin@gmail.com / admin  (or sign up first)
